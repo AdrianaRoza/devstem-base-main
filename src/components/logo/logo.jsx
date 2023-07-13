@@ -4,7 +4,7 @@ import styles from './logo.module.css'
 export default function Logo() {
   return (
     <div className={styles.logo}>
-      <Image src= '/video-game.gif' width={60} height={60} />
+      <Image src= '/game.png' width={50} height={50} />
       <h1>DevSteam</h1>
     </div>
   )
