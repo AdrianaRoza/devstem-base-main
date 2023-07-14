@@ -1,7 +1,7 @@
-import style from './button.module.css'
+import styles from './button.module.css'
 
-export default function({ children }) {
+export default function({ children, fullwidth}) {
   return(
-    <button className={style.button}>{children}</button>
+    <button className={`${styles.button} ${fullwidth && styles.fullwidth}`}>{children}</button>
   )
 }
