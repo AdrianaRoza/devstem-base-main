@@ -6,7 +6,7 @@ import  Button from '@/components/form/button/button'
 export default function SaleCard() {
   return(
     <div className={style.salecard}>
-      <Image src='/products/game21.jpg' width={220} height={300} />
+      <Image src='/products/league-of-legends.jpg' width={220} height={300} />
       <div className={style.info}>
         <h3 className={style.title}>Oferta Exclusiva</h3>
         <div className={style.pricecard}>
