@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import style from './saleCard.module.css'
-import  Button from '@/components/form/button/button'
+import  Button from '@/components/forms/button/button'
 
 export default function SaleCard() {
   return(

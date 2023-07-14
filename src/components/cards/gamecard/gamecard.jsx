@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import styles from './gamecard.module.css'
 
-import  Button from '@/components/form/button/button'
+import  Button from '@/components/forms/button/button'
 
 export default function GameCard() {
   return(
